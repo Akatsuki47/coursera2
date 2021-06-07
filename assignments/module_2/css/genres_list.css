@@ -16,7 +16,7 @@ body {
     border: 2px solid black;
     background: #e0ffff;
     margin-top: 20px;
-    height: 125px;
+
 }
 
 
@@ -29,7 +29,6 @@ body {
     padding-right:5%;
     padding-top: 1%;
     padding-bottom: 1%;
-    /*text bold*/
     font-weight: bolder;
 }
 
@@ -80,6 +79,10 @@ body {
         float: right;
         margin-right: 3%;
     }
+
+    .one, .two, .three {
+        height: 145px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -109,9 +112,12 @@ body {
         padding-right:3%;
         padding-top: 0.5%;
         padding-bottom: 0.5%;
-        /*text bold*/
+        
     }
-    
+
+    .one, .two, .three {
+        height: 120px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -119,5 +125,6 @@ body {
         margin-bottom: 20px;
         margin-left: 5%;
         margin-right: 5%;
+        height: 120px;
     }
 }
